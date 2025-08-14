@@ -1,0 +1,47 @@
+*gap {
+    margin-top: 10px;
+}
+
+
+.container {
+    width: 250px;
+    height: auto;
+    /* display: column; */
+    border: 2px solid red;
+    background: hsl(46, 96%, 41%);
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    vertical-align: auto;
+    box-shadow: green;
+    margin-bottom: 5px;
+    margin-top: 50px;
+}
+
+.logo-image {
+    display: flex;
+    width: 25px;
+    height: auto;
+    margin-left: 20%;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+
+.logo-image:hover img {
+    transform: scale(1.05);
+    border-color: blueviolet;
+    color: brown;
+}
+
+.textbox {
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+.button:hover {
+    background-color: aqua;
+    color: red;
+}

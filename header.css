@@ -1,0 +1,42 @@
+.mainbody {
+    width: 99%;
+    height: auto;
+    border-color: 2px solid green;
+    margin: 10px;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+  background-color: hsl(0, 90%, 31%);
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 18px;
+  font-weight: 20px;
+  color: white;
+  border-bottom: 2px solid #ccc;
+}
+
+.info-left,
+.info-center,
+.info-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.info-center a {
+  text-decoration: none;
+  color: white;
+}
+
+.social-icon {
+  width: 25px;
+  height: 25px;
+  transition: transform 0.2s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+}
